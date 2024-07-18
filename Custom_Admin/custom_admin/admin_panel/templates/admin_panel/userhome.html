@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #ffffff;
+            color: #333;
+            height: 100vh;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .sidebar .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar .logo img {
+            width: 100px;
+            height: auto;
+        }
+        .sidebar a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .sidebar a:hover {
+            background-color: #f1f1f1;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        .top-bar input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .profile-details {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .profile-details h2 {
+            margin-top: 0;
+        }
+        .profile-details p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        .profile-details .edit-button {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            background-color: #ff4081;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <h1>My Account</h1>
+        </div>
+        <input type="text" placeholder="Search for products, brands and more">
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <a href="#">Overview</a>
+            <a href="#">Orders & Returns</a>
+            <a href="#">Coupons</a>
+            <a href="#">Myntra Credit</a>
+            <a href="#">MynCash</a>
+            <a href="#">Profile</a>
+            <a href="#">Saved Cards</a>
+            <a href="#">Saved UPI</a>
+            <a href="#">Saved Wallets/BNPL</a>
+            <a href="#">Addresses</a>
+            <a href="#">Myntra Insider</a>
+            <a href="#">Delete Account</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="main-content">
+            <div class="profile-details">
+                <h2>Profile Details</h2>
+                <p><strong>Full Name:</strong> John Doe</p>
+                <p><strong>Mobile Number:</strong> 1234567890</p>
+                <p><strong>Email ID:</strong> johndoe@example.com</p>
+                <p><strong>Gender:</strong> Male</p>
+                <p><strong>Date of Birth:</strong> - not added -</p>
+                <p><strong>Location:</strong> - not added -</p>
+                <p><strong>Alternate Mobile:</strong> - not added -</p>
+                <p><strong>Hint Name:</strong> - not added -</p>
+                <a href="#" class="edit-button">EDIT</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

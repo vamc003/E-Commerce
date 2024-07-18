@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #232F3E;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo img {
+            width: 100px;
+            margin-right: 20px;
+        }
+        .header .search-bar {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+        .header .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px 0 0 4px;
+            border: 1px solid #ccc;
+        }
+        .header .search-bar button {
+            padding: 10px;
+            background-color: #febd69;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .header .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .header .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .category-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .category-section h2 {
+            font-family: 'Playfair Display', serif;
+            margin-top: 0;
+        }
+        .category-items {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .category-item {
+            width: 24%;
+            margin-bottom: 20px;
+        }
+        .category-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .category-item p {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>My Store</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Profile</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Cart</a>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="category-section">
+            <h2>Revamp your home in style</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Cushion covers">
+                    <p>Cushion covers, bedsheets & more</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Figurines">
+                    <p>Figurines, vases & more</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Home storage">
+                    <p>Home storage</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Lighting solutions">
+                    <p>Lighting solutions</p>
+                </div>
+            </div>
+            <a href="#">Explore all</a>
+        </div>
+        <div class="category-section">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Air conditioners">
+                    <p>Air conditioners</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Refrigerators">
+                    <p>Refrigerators</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Microwaves">
+                    <p>Microwaves</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Washing machines">
+                    <p>Washing machines</p>
+                </div>
+            </div>
+            <a href="#">See more</a>
+        </div>
+        <div class="category-section">
+            <h2>Starting ₹149 | Headphones</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="boAt">
+                    <p>boAt</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="boult">
+                    <p>boult</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Noise">
+                    <p>Noise</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Zebronics">
+                    <p>Zebronics</p>
+                </div>
+            </div>
+            <a href="#">See all offers</a>
+        </div>
+        <div class="category-section">
+            <h2>Automotive essentials | Up to 60% off</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Cleaning accessories">
+                    <p>Cleaning accessories</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Tyre & rim care">
+                    <p>Tyre & rim care</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Helmets">
+                    <p>Helmets</p>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Vacuum cleaner">
+                    <p>Vacuum cleaner</p>
+                </div>
+            </div>
+            <a href="#">See more</a>
+        </div>
+        <div class="category-section">
+            <h2>Trendy home decor</h2>
+            <div class="category-items">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Decor item 1">
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Decor item 2">
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Decor item 3">
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/200" alt="Decor item 4">
+                </div>
+            </div>
+            <a href="#">See all offers</a>
+        </div>
+    </div>
+</body>
+</html>
