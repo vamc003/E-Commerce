@@ -1,8 +1,8 @@
-## Admin Panel Customization in Django
+# Admin Panel Customization in Django
 
-# Table of Contents
-Introduction
-Project Setup
+## Table of Contents
+1.Introduction
+2.Project Setup
 Django Installation
 Create a Django Project
 Create a Django App
